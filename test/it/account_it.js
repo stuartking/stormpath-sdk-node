@@ -24,6 +24,7 @@ describe('Account', function() {
   });
 
   it('should be create-able from a directory instance', function() {
+    assert.equal(1,2);
     assert.equal(fixture.creationResult[0], null); // did not error
     assert(fixture.account instanceof Account);
   });
